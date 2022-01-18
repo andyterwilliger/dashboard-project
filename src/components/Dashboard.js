@@ -1,12 +1,12 @@
 function Dashboard (){
     return(
         <body>
-            <p>Dashboard</p>
-            <p>Widget</p>
-            <p>Reviews</p>
-            <p>Customers</p>
-            <p>Online Analysis</p>
-            <p>Settings</p>
+            <p class="dboard-item">Dashboard</p>
+            <p class="dboard-item">Widget</p>
+            <p class="dboard-item">Reviews</p>
+            <p class="dboard-item">Customers</p>
+            <p class="dboard-item">Online Analysis</p>
+            <p class="dboard-item">Settings</p>
         </body>
     )
 }

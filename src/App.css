@@ -3,25 +3,46 @@
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: repeat(2, 1fr) 3fr repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color:#d9d9d9;
     
 }
 .Dashboard{
-   grid-area: 1 / 1 / 6 / 2; 
+   grid-area: 1 / 1 / 4 / 2; 
+   background-color: #3c6e71;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+  
+  
 }
 
+
 .Reviews{
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: indianred;
+  text-align: center;
   
 }
 
 .Rating{
   grid-area: 1 / 3 / 2 / 4;
-  
+  text-align: center;
+  background-color: #fdfcdc;
 }
 
 .Analysis{
   grid-area: 1 / 4 / 2 / 5;
+  text-align: center;
+  background-color: #fed9b7;
+}
+
+.Visitors{
+  grid-area: 2 / 2 / 4 / 6;
+  background-color: #284b63;
+  text-align: center;
 }
 
