@@ -3,6 +3,8 @@ import './App.css';
 import Dashboard from './components/Dashboard';
 import Reviews from './components/Reviews';
 import Rating from './components/Rating';
+import Analysis from './components/Analysis';
+import Visitors from './components/Visitors';
 
 function App(){
   return(
@@ -16,7 +18,14 @@ function App(){
     <div className= 'Rating'>
     <Rating />
     </div>
+    <div className = 'Analysis'>
+      <Analysis />
     </div>
+    <div className = 'Visitors'>
+      <Visitors />
+    </div>
+    </div>
+
   )
 }
 
